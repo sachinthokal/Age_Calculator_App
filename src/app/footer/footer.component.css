@@ -1,0 +1,14 @@
+.footer {
+  background-color: #002549;
+  height: 125px;
+}
+.nav {
+  margin-top: -40px;
+}
+label {
+  margin: 10px 0px 0px 10px;
+  color: whitesmoke;
+}
+a {
+  color: whitesmoke;
+}
