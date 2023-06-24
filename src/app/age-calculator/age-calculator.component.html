@@ -1,6 +1,45 @@
 <div class="container-fluid">
   <div class="row body">
-    <div class="col">Col 1</div>
-    <div class="col">Col 2</div>
+    <div class="col">
+      <div class="card text-center">
+        <div class="card-header">
+          <h5>Check Your Age !!</h5>
+        </div>
+        <div class="card-body">
+          <form [formGroup]="data" (ngSubmit)="submit()">
+            <div class="row mt-3">
+              <div class="col"> Date of Birth :</div>
+              <div class="col"><input type="date" name="dob" formControlName="dob" required></div>
+
+            </div>
+            <div class="row mt-3">
+              <div class="col"> Today / Till Date :</div>
+              <div class="col"><input type="date" formControlName="currentdate" required></div>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Check</button>
+          </form>
+        </div>
+        <div class="card-footer text-muted">
+          Count your age by friends, not years. Count your life by smiles, not tears !!
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card text-center">
+        <div class="card-header">
+          <h5>Age : {{Year}}</h5>
+        </div>
+        <div class="card-body">
+          <p></p>
+          <p>Years : {{Year}}</p>
+          <p>Months : {{Month}}</p>
+          <p>Days : {{Day}}</p>
+          <p></p>
+        </div>
+        <div class="card-footer text-muted">
+          How old would you be if you didn't know how old you are ?
+        </div>
+      </div>
+    </div>
   </div>
-</div>
+  <router-outlet></router-outlet>

@@ -1,6 +1,9 @@
 .body {
-  height: 689px;
+  height: 1360px;
 }
-.col {
-  padding: 0px;
+.card {
+  margin: 200px 0px 0px 0px;
+}
+.card-footer {
+  font-size: medium;
 }
