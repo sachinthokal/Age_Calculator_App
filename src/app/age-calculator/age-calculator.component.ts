@@ -34,7 +34,15 @@ export class AgeCalculatorComponent implements OnInit {
       this.Year = year;
       this.Month = month;
       this.Day = days;
-      // console.log('Year :- ' + year + ' Month :- ' + month + ' Days :- ' + days);
+
+      // let yy, mm, dd;
+
+      // yy = Math.abs(Math.floor(time / (60 * 60 * 24) / 365)); // 0
+      // mm = Math.abs(Math.floor(time / (60 * 60 * 24) / 30.41) / 30.41); // 60
+      // dd = Math.abs(Math.floor(time / (60 * 60 * 24))); //2
+
+      // console.log(time);
+      // console.log('Year :- ' + yy + ' Month :- ' + mm + ' Days :- ' + dd);
     } else {
       alert(
         " Please select correct date's & date of birth should be less than current / till date."
