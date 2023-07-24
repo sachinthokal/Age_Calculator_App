@@ -10,8 +10,8 @@ export class ContactComponent implements OnInit {
   ngOnInit(): void {}
 
   email = 'c8317b24d45065a30fdd30ef4c4d247c';
-  feedback = new FormGroup({
-    name: new FormControl(''),
-    message: new FormControl(''),
-  });
+  // feedback = new FormGroup({
+  //   name: new FormControl(''),
+  //   message: new FormControl(''),
+  // });
 }

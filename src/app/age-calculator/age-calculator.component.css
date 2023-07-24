@@ -1,11 +1,23 @@
 .body {
-  height: 550px;
+  height: 1050px;
+  border: 1px solid black;
+  background-color: #a6a5a6;
 }
+
 .card {
   margin: 100px 0px 0px 0px;
 }
 .card-footer {
   font-size: medium;
+}
+
+.card-body {
+  height: 240px;
+  color: whitesmoke;
+  background-image: url("../../assets/img/Tech.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 p {

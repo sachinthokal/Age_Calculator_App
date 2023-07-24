@@ -1,5 +1,5 @@
 .body {
-  height: 650px;
+  height: 1000px;
 }
 .card {
   margin-top: 50px;
@@ -13,7 +13,7 @@ p {
   font-weight: bold;
 }
 .card-body {
-  height: 480px;
+  height: 850px;
   background-image: url("../../../assets/img/web-about.jpg");
   background-position: center;
   background-repeat: no-repeat;

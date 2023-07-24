@@ -15,14 +15,14 @@
         </div>
         <div class="card-body">
           <form [formGroup]="data" (ngSubmit)="submit()">
-            <div class="row mt-3">
-              <div class="col"> Date of Birth :</div>
-              <div class="col"><input type="date" name="dob" formControlName="dob" required></div>
-
+            <div class="row">
+              <div class="col-lg-6 col-md-4 col-sm-2"> Date of Birth :</div>
+              <div class="col-lg-6 col-md-4 col-md-2 mb-4"><input type="date" name="dob" formControlName="dob" required>
+              </div>
             </div>
-            <div class="row mt-3">
-              <div class="col"> Today / Till Date :</div>
-              <div class="col"><input type="date" formControlName="currentdate" required></div>
+            <div class="row">
+              <div class="col-lg-6 col-md-4 col-md-2"> Today / Till Date :</div>
+              <div class="col-lg-6 col-md-4 col-md-2"><input type="date" formControlName="currentdate" required></div>
             </div>
             <button type="submit" class="btn btn-primary">Check</button>
           </form>
@@ -32,12 +32,12 @@
         </div>
       </div>
     </div>
-    <div class="col">
+    <div class="col-lg-6 col-md-4 col-md-2">
       <div class="card text-center">
         <div class="card-header">
           <h5>Age : {{Year}}</h5>
         </div>
-        <div class="card-body mt-2">
+        <div class="card-body">
           <p>Years : {{Year}}</p>
           <p>Months : {{Month}}</p>
           <p>Days : {{Day}}</p>
