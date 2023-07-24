@@ -1,4 +1,12 @@
 <div class="container-fluid">
+  <div class="agedetails">
+    <h6>
+      <li>Age Calculator</li>
+    </h6>
+    <p>The age calculator can determine the age or interval between two dates. The calculated age
+      will be displayed in years, months and days.</p>
+  </div>
+
   <div class="row body">
     <div class="col">
       <div class="card text-center">
@@ -16,7 +24,7 @@
               <div class="col"> Today / Till Date :</div>
               <div class="col"><input type="date" formControlName="currentdate" required></div>
             </div>
-            <button type="submit" class="btn btn-primary mt-3">Check</button>
+            <button type="submit" class="btn btn-primary">Check</button>
           </form>
         </div>
         <div class="card-footer text-muted">
@@ -29,12 +37,13 @@
         <div class="card-header">
           <h5>Age : {{Year}}</h5>
         </div>
-        <div class="card-body">
-          <p></p>
+        <div class="card-body mt-2">
           <p>Years : {{Year}}</p>
           <p>Months : {{Month}}</p>
           <p>Days : {{Day}}</p>
-          <p></p>
+          <p>Hours : {{Hours}}</p>
+          <!-- <a href="../../assets/download/Data.txt" download><img src="../../assets/img/download.gif" alt="download"
+              height="15" style="margin-left: -10px;"><span>&nbsp; Download your data</span></a> -->
         </div>
         <div class="card-footer text-muted">
           How old would you be if you didn't know how old you are ?
@@ -42,4 +51,3 @@
       </div>
     </div>
   </div>
-  <router-outlet></router-outlet>

@@ -1,9 +1,25 @@
 .body {
-  height: 700px;
+  height: 550px;
 }
 .card {
-  margin: 200px 0px 0px 0px;
+  margin: 100px 0px 0px 0px;
 }
 .card-footer {
   font-size: medium;
+}
+
+p {
+  font-size: small;
+}
+.agedetails {
+  margin-top: 10px;
+}
+a {
+  text-decoration: none;
+}
+span {
+  margin-top: 10px;
+}
+.btn {
+  margin-top: 27px;
 }

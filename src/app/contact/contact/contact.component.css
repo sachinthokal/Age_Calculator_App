@@ -1,0 +1,36 @@
+.body {
+  height: 650px;
+}
+.card {
+  margin-top: 50px;
+}
+.card-title,
+.card-text {
+  color: whitesmoke;
+}
+.card-header {
+  font-weight: bold;
+}
+.card-body {
+  height: 480px;
+  background-image: url("../../../assets/img/contact.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+input,
+textarea {
+  margin-top: 4px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+}
+.logo {
+  padding: 5px;
+}
+.btn {
+  width: 150px;
+}

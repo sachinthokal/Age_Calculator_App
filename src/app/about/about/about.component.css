@@ -1,0 +1,35 @@
+.body {
+  height: 650px;
+}
+.card {
+  margin-top: 50px;
+}
+.card-title,
+.card-text,
+p {
+  color: whitesmoke;
+}
+.card-header {
+  font-weight: bold;
+}
+.card-body {
+  height: 480px;
+  background-image: url("../../../assets/img/web-about.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+  padding: 5px;
+}
+.UpcomingCal {
+  font-size: small;
+  color: orange;
+  text-align: start;
+}
+
+.next {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
